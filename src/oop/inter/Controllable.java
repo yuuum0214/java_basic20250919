@@ -1,6 +1,6 @@
 package oop.inter;
 
-public interface Controllable {
+public interface Controllable extends  Parent {
 
     // 인터페이스에 변수를 선언하면 상수(static final)로 인식함.
     int NUM = 5;
