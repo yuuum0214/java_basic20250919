@@ -14,5 +14,8 @@ public class Main {
 
 
         m1.blizzard(w1, w2, m2, h1, h2);
+        h2.magicArrow(w1);
+        h2.magicArrow(m1);
+        h2.magicArrow(h1);
     }
 }
